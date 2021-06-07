@@ -49,7 +49,7 @@ header {
     text-decoration: line-through;
 }
 
-a:any-link{
+.desktop-menu a:visited{
     color: #060A24;
     text-decoration: none;
 }
@@ -235,6 +235,10 @@ footer {
 }
 
 footer .footer-icon {font-size: 1.125rem;}
+
+.media-social-icons a:visited {
+    color: #060A24;
+}
 
 
 @media screen and (max-width: 425px) {
