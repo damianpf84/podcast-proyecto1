@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    color: #060A24;
+    font-family: 'IBM Plex Sans', sans-serif; 
+}
+
+.justify-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.font-mono {
+    font-size: 1rem;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+header {
+    width: 100%;
+    align-items: center;
+    padding: 22px 100px;
+}
+
+.logo-header {
+    height: 36px;
+    width: 36px;
+}
+
+.mobile-menu {display: none;}
+
+.desktop-menu {width: 38%;}
+
+.desktop-menu .nav-bar {
+    list-style: none;
+    cursor: pointer;
+}
+
+.desktop-menu a:hover {color: #00F3BB;}
+
+.desktop-menu a:active {
+    color: rgba(6,10,36,0.56); 
+    text-decoration: line-through;
+}
+
+a:any-link{
+    color: #060A24;
+    text-decoration: none;
+}
+
+main {width: 100%;}
+
+.main-helloWorld {
+    display: flex;
+    flex-direction: column;
+    padding: 120px 0px 5px 200px;
+}
+
+.main-helloWorld .helloWorld {
+    font-size: 4rem;
+    font-weight: 500;
+    letter-spacing: -2px;
+}
+
+.helloWorld-decoration {text-decoration: line-through;}
+
+.blue-dot {color:#0000EC;}
+
+.main-helloWorld .text {
+    width: 55%;
+    font-weight: 500;
+}
+
+.main-helloWorld .first-button {
+    width: 226px;
+    margin: 56px 0 5px;
+}
+
+.button:hover {
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    color: #FFFFFF;
+}
+
+.button {
+    background: #00F3BB;
+    height: 56px;
+    font-size: 1.125rem;
+    font-family: 'IBM Plex Mono', monospace; 
+    border: #00F3BB;
+    cursor: pointer;
+}
+
+.main-podcast {
+    width: 100%;
+    clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0% 100%);
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    z-index: -1;
+}
+
+.main-podcast .podcast-title {
+    font-size: 3rem;
+    color: #FFFFFF;
+    padding: 186px 0 26px 200px;
+    font-weight: 400;
+}
+
+.podcast-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 162.6px;
+}
+
+.podcast-container .podcast-box {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.podcast-container .spotify {
+   width: 40%;
+   margin-bottom: 70px;
+}
+
+.main-phone {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-phone .phone-img {
+    width: 30%;
+    margin: -168.6px 62.4px 64px 200px;
+    z-index: 100;
+}
+
+.phone-container-text {
+    display: flex;
+    flex-direction: column;
+    width: 34.5%;
+}
+
+.phone-container-text :nth-child(2){
+    padding-bottom: 10px;
+}
+
+.main-phone .phone-title {
+    font-size: 3rem;
+    font-weight: 300;
+    padding: 20.4px 0 24px;
+}
+
+.main-photos {width: 100%;}
+
+.main-photos .photos-title {
+    font-size: 3rem;
+    padding: 30px 0 36px 200px;
+}
+
+.photos-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photos-box .photos-img {
+    width: 33.33%;
+    margin-bottom: -2px;
+    flex: 1;
+}
+
+.main-icons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.icons-container {padding: 0 200px 34px;}
+
+.main-icons .icons-title {
+    font-size: 3rem;
+    padding: 64px 60px 56px 200px;
+}
+
+.icons-container .icons-img {
+    height: 104px;
+    width: 104px;
+}
+
+.icons-container .icons-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.icons-box {
+    width: 220px;
+    text-align: center;
+}
+
+.main-latestNews {
+    width: 100%;
+    clip-path: polygon(0 13%, 100% 0, 100% 100%, 0 100%);
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-latestNews .main-latestNews-title {
+    color:#FFFFFF;
+    font-size: 3rem;
+    padding: 213px 300px 36px;
+    font-weight: 300;
+}
+
+.main-latestNews button {
+    width: 345px;
+    margin-bottom: 151px;
+}
+
+footer {
+    width: 100%;
+    padding: 36px 100px 31px;
+    flex-wrap: wrap;
+}
+
+.media-social-icons {
+    width: 25%;
+    font-size: 1.125rem;
+}
+
+footer .footer-icon {font-size: 1.125rem;}
+
+
+@media screen and (max-width: 425px) {
+   
+    header {padding: 10px;}
+
+    .logo-header {
+        height: 24px;
+        width: 24px;
+    }
+
+    .font-mono {
+        font-size: 0.875rem;
+        font-family: 'IBM Plex Mono', monospace;
+    }
+    
+    .desktop-menu {display: none;}
+    
+    input {display: none;}
+    
+    .mobile-menu {
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .mobile-menu .items {
+        font-family: 'IBM Plex Mono', monospace;
+        list-style: none;
+        height: 70px;
+        padding: 10px 20px;
+        background-color: #0000EC;
+        color: #FFFFFF; 
+        line-height: 50px;
+    }
+    
+    .mobile-menu a:visited {color: #FFFFFF;}
+    
+    .mobile-menu .nav-bar-toggle {
+        width: 100%;
+        position: fixed;
+        top: 50px;
+        left: 0;
+        transition: all 1s ease;
+        transform: translateX(100%);
+        font-size: 1rem;
+    }
+        
+    .linea {
+        width: 18px;
+        height: 2px;
+        background-color: #000;
+        margin-bottom: 4px;
+        border-radius: 2px;
+        transition: all 1s ease;
+        transform-origin: left;
+    }
+
+    input:checked + label .linea-top {
+        transform: rotate(42.5deg);
+        background-color:#060A24 ;
+    }
+
+    input:checked + label .linea-middle {
+        background-color: white;
+    }
+
+    input:checked + label .linea-bottom {
+        transform: rotate(-42.5deg);
+        background-color:#060A24;
+    }
+
+    input:checked ~ .nav-bar-toggle {
+        transform: translateX(0);
+    }
+    
+    .main-helloWorld {padding: 29px 16px 24px;}
+
+    .main-helloWorld .helloWorld {
+        font-size: 2.25rem;
+        letter-spacing: 0;
+    }
+
+    .blue-dot {color: #060A24;}
+
+    .main-helloWorld .text {
+        font-weight: 500;
+        width: 100%;
+    }
+
+    .main-helloWorld .first-button {
+        width: 100%;
+        margin-top: 36px;
+    }
+
+    .button {
+        height: 48px;
+        font-size: 1rem;
+    }
+    
+    .main-podcast {
+        width: 100%;
+        clip-path: polygon(0 3%, 100% 0%, 100% 97%, 0% 100%);
+    }
+    
+    .main-podcast .podcast-title {
+        font-size: 2.25rem;
+        padding: 64px 0 21px 16px;
+    }
+    
+    .podcast-container {padding: 0 11px 149.6px;}
+    
+    .podcast-container .podcast-box {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .podcast-container .spotify {
+        width: 100%;
+        margin-bottom: 11px;
+    }
+
+     
+    .main-phone .phone-img {
+        width: 100%;
+        margin: -100px 0 27px;
+    }
+    
+    .phone-container-text {
+        margin-left: 0px;
+        width: 100%;
+        padding: 0 16px 54px;
+    }
+    
+    .main-phone .phone-title {
+        font-size: 2.25rem;
+        padding: 0 0px 8px;
+    }
+
+    .main-photos .photos-title {
+        font-size: 2.25rem;
+        padding: 0  50px 14px 16px;
+    }
+    
+    .photos-box .photos-img {width: 100%;}
+    
+    .icons-container {
+        padding: 0 16px 36px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icons-box {margin-bottom: 36px;}
+    
+    .main-icons .icons-title {
+        font-size: 2.25rem;
+        padding: 48px 16px 24px;
+    }
+    
+    .main-latestNews .main-latestNews-title {
+        font-size: 2.25rem;
+        padding: 64px 70px 36px;
+        text-align: center;
+    }
+    
+    .main-latestNews button {
+        width: 90%;
+        margin-bottom: 67px;
+    }
+
+    footer {
+        display:flex;
+        flex-direction: column;
+        padding: 24px 0 31px;
+        flex-wrap: nowrap;
+    }
+    
+    footer .footer-copyright {
+        padding-bottom: 16px;
+        text-align: center;
+    }
+    
+    footer .media-social-icons {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1rem;
+        padding: 0 45px;
+    }
+
+  
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Podcast</title>
+    <script src="https://kit.fontawesome.com/a6cc940870.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="justify-content">
+        <img class="logo-header" src="/assets/logo.svg" alt="imagen de logo">
+        <nav class="mobile-menu">
+            <input type="checkbox" id="burger-menu"/>
+            <label for="burger-menu">
+                <div class="container-burguer">
+                    <div class="linea linea-top"></div>
+                    <div class="linea linea-middle"></div>
+                    <div class="linea linea-bottom"></div>
+                </div>
+            </label>
+            <ul class="nav-bar-toggle">
+                <li class="items"><a href="#episodios"> EPISODIOS</a></li>
+                <li class="items"><a href="#nosotros"> NOSOTROS</a></li>
+                <li class="items"><a href="#entrevistas"> ENTREVISTAS</a></li>
+                <li class="items"><a href="#topicos"> TOPICÓS</a></li>
+           </ul>
+        </nav>
+        <nav class="desktop-menu">
+            <ul class="nav-bar justify-content font-mono">
+                <li class="items"><a href="#episodios"> EPISODIOS</a></li>
+                <li class="items"><a href="#nosotros"> NOSOTROS</a></li>
+                <li class="items"><a href="#entrevistas"> ENTREVISTAS</a></li>
+                <li class="items"><a href="#topicos"> TOPICÓS</a></li>
+           </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="main-helloWorld">
+            <h2 class="helloWorld">Hello <span class="helloWorld-decoration">world</span> pale blue dot<span class="blue-dot">.</span></h2>
+            <p class="text font-mono">El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
+            <button class="button first-button" type="button">CONOCÉ MÁS</button>
+        </section>
+        <section class="main-podcast" id="episodios">
+           <h3 class="podcast-title">Episodios</h3>
+           <div class="podcast-container"> 
+                <div class="podcast-box">
+                    <iframe class="spotify" src="https://open.spotify.com/embed/episode/7AZZy2nJ4R9ZndHW0h2yxt" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <iframe class="spotify" src="https://open.spotify.com/embed/episode/1ezdL2ivAGLwSE6Xbssxqt" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+                <div class="podcast-box">
+                    <iframe class="spotify" src="https://open.spotify.com/embed/episode/3cWta1iiQSfvrdHaCbLkSD" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <iframe class="spotify" src="https://open.spotify.com/embed/episode/31VyAQAwBiKoHVoYUCEzjQ" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="main-phone" id="nosotros">
+            <img class="phone-img" src="/assets/phone.png" alt="imagen de un telefono celular"> 
+            <div class="phone-container-text">
+                <h2 class="phone-title">De dónde venimos</h2>
+                <p class="font-mono">Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.</p>
+                <p class="font-mono"> Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+            </div>
+        </section>
+        <section class="main-photos" id="entrevistas">
+            <h2 class="photos-title">Invitadas/os estelares</h2>
+            <div class="photos-box">
+                <img class="photos-img" src="/assets/grace-hopper.png" alt="foto de Grace Hopper">
+                <img class="photos-img" src="/assets/Katie-Bouman.png" alt="foto de Katie Bouman">
+                <img class="photos-img" src="/assets/Margaret_Hamilton.png" alt="foto de Margaret Hamilton">
+                <img class="photos-img" src="/assets/An E.R.A.Univac 1103 computer in the 1950s.png" alt="foto de computadora de 1950">
+                <img class="photos-img" src="/assets/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="">
+                <img class="photos-img" src="/assets/susan-kare.png" alt="foto de Susan Kare">
+            </div>
+        </section>
+        <section class="main-icons" id="topicos">
+            <h2 class="icons-title">Algunos de nuestros temas</h2>
+            <div class="icons-container justify-content">
+                <div class="icons-box"> 
+                    <img class="icons-img" src="/assets/icon1.svg" alt="icono de trabajo remoto">
+                    <h3 class="icons-text">Trabajo remoto</h3>
+                </div>
+                <div class="icons-box">
+                    <img class="icons-img" src="/assets/icon2.svg" alt="icono de cabeza">
+                    <h3 class="icons-text">Repensando la programación</h3>
+                </div>
+                <div class="icons-box">
+                    <img class="icons-img" src="/assets/icon3.svg" alt="icono de notebook">
+                    <h3 class="icons-text">Bases del código</h3>
+                </div>
+                <div class="icons-box">
+                    <img class="icons-img" src="/assets/icon4.svg" alt="icono de seguridad informatica ">
+                    <h3 class="icons-text">Seguridad informática</h3>
+                </div>
+            </div>
+        </section>
+        <section class="main-latestNews">
+            <h2 class="main-latestNews-title">¿Querés las últimas novedades?</h2>
+            <button class="button second-button" type="button">ESCUCHÁ LOS EPISODIOS</button>
+        </section>
+    </main>
+    <footer class="justify-content">
+        <p class="footer-copyright font-mono">© 2019— Hello blue pale dot </p>
+        <div class="media-social-icons justify-content">
+            <a href="http://www.spotify.com" target="_blank" rel="noopener noreferrer"><i class=" footer-icon fab fa-spotify"></i></a>
+            <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer"><i class="footer-icon fab fa-instagram"></i></a>
+            <a href="http://www.twitter.com" target="_blank" rel="noopener noreferrer"><i class="footer-icon fab fa-twitter"></i></a>
+            <a href="http://www.facebook.com" target="_blank" rel="noopener noreferrer"><i class="footer-icon fab fa-facebook"></i></a>
+            <a href="https://web.telegram.org" target="_blank" rel="noopener noreferrer"><i class="footer-icon fab fa-telegram"></i></a>
+        </div>
+    </footer>
+    
+</body>
+</html>
