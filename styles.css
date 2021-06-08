@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-:root {
+body {
     color: #060A24;
     font-family: 'IBM Plex Sans', sans-serif; 
 }
@@ -42,15 +42,18 @@ header {
     cursor: pointer;
 }
 
-.desktop-menu a:hover {color: #00F3BB;}
+.desktop-menu .items :hover {color: #00F3BB;}
 
-.desktop-menu a:active {
+.desktop-menu .items :active {
     color: rgba(6,10,36,0.56); 
     text-decoration: line-through;
 }
 
-.desktop-menu a:visited{
+.desktop-menu a:visited {
     color: #060A24;
+}
+
+a:any-link {
     text-decoration: none;
 }
 
@@ -274,7 +277,7 @@ footer .footer-icon {font-size: 1.125rem;}
         line-height: 50px;
     }
     
-    .mobile-menu a:visited {color: #FFFFFF;}
+    .mobile-menu .nav-bar-toggle a:visited {color: #FFFFFF;}
     
     .mobile-menu .nav-bar-toggle {
         width: 100%;
