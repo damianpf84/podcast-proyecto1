@@ -235,10 +235,12 @@ footer {
 .media-social-icons {
     width: 25%;
     font-size: 1.125rem;
-    color: #060A24;
 }
 
-footer .footer-icon {font-size: 1.125rem;}
+footer .footer-icon {
+    font-size: 1.125rem;
+    color: #060A24;
+}
 
 .media-social-icons a:visited {
     color: #060A24;
