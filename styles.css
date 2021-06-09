@@ -42,6 +42,10 @@ header {
     cursor: pointer;
 }
 
+.desktop-menu a {
+    color: #060A24;
+}
+
 .desktop-menu .items :hover {color: #00F3BB;}
 
 .desktop-menu .items :active {
@@ -53,9 +57,7 @@ header {
     color: #060A24;
 }
 
-a:any-link {
-    text-decoration: none;
-}
+a:any-link {text-decoration: none;}
 
 main {width: 100%;}
 
@@ -278,7 +280,7 @@ footer .footer-icon {
         background-color: #0000EC;
         line-height: 50px;
     }
-    .mobile-menu .items a{
+    .mobile-menu .items a {
         color: #FFFFFF; 
     }
     
@@ -409,7 +411,7 @@ footer .footer-icon {
     
     .main-latestNews .main-latestNews-title {
         font-size: 2.25rem;
-        padding: 64px 70px 36px;
+        padding: 64px 16px 36px;
         text-align: center;
     }
     
