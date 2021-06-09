@@ -276,8 +276,10 @@ footer .footer-icon {
         height: 70px;
         padding: 10px 20px;
         background-color: #0000EC;
-        color: #FFFFFF; 
         line-height: 50px;
+    }
+    .mobile-menu .items a{
+        color: #FFFFFF; 
     }
     
     .mobile-menu .nav-bar-toggle a:visited {color: #FFFFFF;}
