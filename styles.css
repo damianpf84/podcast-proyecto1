@@ -323,6 +323,7 @@ footer .footer-icon {
 
     .mobile-menu .items:active {
         color:  rgba(6,10,36,0.56);
+        text-decoration: line-through;
     }
     
     .mobile-menu .nav-bar-toggle {
@@ -486,7 +487,5 @@ footer .footer-icon {
         width: 234px;
     }
 
-    footer .footer-icon {
-        margin: 0;
-    }
+    footer .footer-icon {margin: 0;}
 }
