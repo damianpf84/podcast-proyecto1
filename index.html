@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles.css">
-    <title>Podcast</title>
-    <script src="https://kit.fontawesome.com/a6cc940870.js" crossorigin="anonymous"></script>
+    <title>Proyecto-podcast</title>
 </head>
 <body>
     <header class="justify-content">
@@ -21,77 +20,77 @@
                 </div>
             </label>
             <ul class="nav-bar-toggle">
-                <li class="items"><a href="#episodios"> EPISODIOS</a></li>
-                <li class="items"><a href="#nosotros"> NOSOTROS</a></li>
-                <li class="items"><a href="#entrevistas"> ENTREVISTAS</a></li>
-                <li class="items"><a href="#topicos"> TOPICÓS</a></li>
+                <li><a class="items" href="#episodios"> EPISODIOS</a></li>
+                <li><a class="items" href="#nosotros"> NOSOTROS</a></li>
+                <li><a class="items" href="#entrevistas"> ENTREVISTAS</a></li>
+                <li><a class="items" href="#topicos"> TOPICÓS</a></li>
            </ul>
         </nav>
         <nav class="desktop-menu">
             <ul class="nav-bar justify-content font-mono">
-                <li class="items"><a href="#episodios"> EPISODIOS</a></li>
-                <li class="items"><a href="#nosotros"> NOSOTROS</a></li>
-                <li class="items"><a href="#entrevistas"> ENTREVISTAS</a></li>
-                <li class="items"><a href="#topicos"> TOPICÓS</a></li>
+                <li><a class="items" href="#episodios"> EPISODIOS</a></li>
+                <li><a class="items" href="#nosotros"> NOSOTROS</a></li>
+                <li><a class="items" href="#entrevistas"> ENTREVISTAS</a></li>
+                <li><a class="items" href="#topicos"> TOPICÓS</a></li>
            </ul>
         </nav>
     </header>
     <main>
         <section class="main-helloWorld">
             <h2 class="helloWorld">Hello <span class="helloWorld-decoration">world</span> pale blue dot<span class="blue-dot">.</span></h2>
-            <p class="text font-mono">El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
+            <p class="text font-mono">El portal de podcasts que explora el mundo de la programación y <br> la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
             <button class="button first-button" type="button">CONOCÉ MÁS</button>
         </section>
         <section class="main-podcast" id="episodios">
            <h3 class="podcast-title">Episodios</h3>
            <div class="podcast-container"> 
-                <div class="podcast-box">
+                <div class="podcast-frames">
                     <iframe class="spotify" src="https://open.spotify.com/embed/episode/7AZZy2nJ4R9ZndHW0h2yxt" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     <iframe class="spotify" src="https://open.spotify.com/embed/episode/1ezdL2ivAGLwSE6Xbssxqt" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                 </div>
-                <div class="podcast-box">
+                <div class="podcast-frames">
                     <iframe class="spotify" src="https://open.spotify.com/embed/episode/3cWta1iiQSfvrdHaCbLkSD" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     <iframe class="spotify" src="https://open.spotify.com/embed/episode/31VyAQAwBiKoHVoYUCEzjQ" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                 </div>
             </div>
         </section>
-        <section class="main-phone" id="nosotros">
-            <img class="phone-img" src="/assets/phone.png" alt="imagen de un telefono celular"> 
-            <div class="phone-container-text">
-                <h2 class="phone-title">De dónde venimos</h2>
+        <section class="main-we">
+            <img class="we-img" id="nosotros" src="/assets/phone.png" alt="imagen de un telefono celular con imagen de una mujer programando"> 
+            <div class="we-container-text">
+                <h2 class="we-title">De dónde venimos</h2>
                 <p class="font-mono">Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.</p>
                 <p class="font-mono"> Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
             </div>
         </section>
-        <section class="main-photos" id="entrevistas">
-            <h2 class="photos-title">Invitadas/os estelares</h2>
-            <div class="photos-box">
-                <img class="photos-img" src="/assets/grace-hopper.png" alt="foto de Grace Hopper">
-                <img class="photos-img" src="/assets/Katie-Bouman.png" alt="foto de Katie Bouman">
-                <img class="photos-img" src="/assets/Margaret_Hamilton.png" alt="foto de Margaret Hamilton">
-                <img class="photos-img" src="/assets/An E.R.A.Univac 1103 computer in the 1950s.png" alt="foto de computadora de 1950">
-                <img class="photos-img" src="/assets/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="">
-                <img class="photos-img" src="/assets/susan-kare.png" alt="foto de Susan Kare">
+        <section class="main-guests" id="entrevistas">
+            <h2 class="guests-title">Invitadas/os estelares</h2>
+            <div class="guests-img-box">
+                <img class="guests-img" src="/assets/grace-hopper.png" alt="foto de Grace Hopper">
+                <img class="guests-img" src="/assets/Katie-Bouman.png" alt="foto de Katie Bouman">
+                <img class="guests-img" src="/assets/Margaret_Hamilton.png" alt="foto de Margaret Hamilton">
+                <img class="guests-img" src="/assets/An E.R.A.Univac 1103 computer in the 1950s.png" alt="foto de computadora de 1950">
+                <img class="guests-img" src="/assets/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="">
+                <img class="guests-img" src="/assets/susan-kare.png" alt="foto de Susan Kare">
             </div>
         </section>
-        <section class="main-icons" id="topicos">
-            <h2 class="icons-title">Algunos de nuestros temas</h2>
-            <div class="icons-container justify-content">
-                <div class="icons-box"> 
-                    <img class="icons-img" src="/assets/icon1.svg" alt="icono de trabajo remoto">
-                    <h3 class="icons-text">Trabajo remoto</h3>
+        <section class="main-topics" id="topicos">
+            <h2 class="topics-title">Algunos de nuestros temas</h2>
+            <div class="topics-container justify-content">
+                <div class="topics-box"> 
+                    <img class="topics-img" src="/assets/icon1.svg" alt="icono de trabajo remoto">
+                    <h3 class="topics-text">Trabajo remoto</h3>
                 </div>
-                <div class="icons-box">
-                    <img class="icons-img" src="/assets/icon2.svg" alt="icono de cabeza">
-                    <h3 class="icons-text">Repensando la programación</h3>
+                <div class="topics-box">
+                    <img class="topics-img" src="/assets/icon2.svg" alt="icono de cabeza">
+                    <h3 class="topics-text">Repensando la programación</h3>
                 </div>
-                <div class="icons-box">
-                    <img class="icons-img" src="/assets/icon3.svg" alt="icono de notebook">
-                    <h3 class="icons-text">Bases del código</h3>
+                <div class="topics-box">
+                    <img class="topics-img" src="/assets/icon3.svg" alt="icono de notebook">
+                    <h3 class="topics-text">Bases del código</h3>
                 </div>
-                <div class="icons-box">
-                    <img class="icons-img" src="/assets/icon4.svg" alt="icono de seguridad informatica ">
-                    <h3 class="icons-text">Seguridad informática</h3>
+                <div class="topics-box">
+                    <img class="topics-img" src="/assets/icon4.svg" alt="icono de seguridad informatica ">
+                    <h3 class="topics-text">Seguridad informática</h3>
                 </div>
             </div>
         </section>
@@ -102,14 +101,13 @@
     </main>
     <footer class="justify-content">
         <p class="footer-copyright font-mono">© 2019— Hello blue pale dot </p>
-        <div class="media-social-icons justify-content">
-            <a href="http://www.spotify.com" target="_blank" rel="noopener noreferrer"><i class=" footer-icon fab fa-spotify"></i></a>
-            <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer"><i class="footer-icon fab fa-instagram"></i></a>
-            <a href="http://www.twitter.com" target="_blank" rel="noopener noreferrer"><i class="footer-icon fab fa-twitter"></i></a>
-            <a href="http://www.facebook.com" target="_blank" rel="noopener noreferrer"><i class="footer-icon fab fa-facebook"></i></a>
-            <a href="https://web.telegram.org" target="_blank" rel="noopener noreferrer"><i class="footer-icon fab fa-telegram"></i></a>
+        <div class="media-social-icons">
+            <a class="footer-icon" href="http://www.spotify.com" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24"><defs/><path d="M12 24c6.624 0 12-5.376 12-12S18.624 0 12 0 0 5.376 0 12s5.376 12 12 12zm4.872-6.344v.001c-.807 0-3.356-2.828-10.52-1.36-.189.049-.436.126-.576.126-.915 0-1.09-1.369-.106-1.578 3.963-.875 8.013-.798 11.467 1.268.824.526.474 1.543-.265 1.543zm1.303-3.173c-.113-.03-.08.069-.597-.203-3.025-1.79-7.533-2.512-11.545-1.423-.232.063-.358.126-.576.126-1.071 0-1.355-1.611-.188-1.94 4.716-1.325 9.775-.552 13.297 1.543.392.232.547.533.547.953a.938.938 0 01-.938.944zM4.548 6.998c4.523-1.324 11.368-.906 15.624 1.578 1.091.629.662 2.22-.498 2.22l-.001-.001c-.252 0-.407-.063-.625-.189C15.605 8.55 9.444 8.057 5.458 9.17c-.175.048-.393.125-.625.125-.639 0-1.127-.499-1.127-1.142 0-.657.407-1.029.842-1.155z"/></svg></a>
+            <a class="footer-icon" href="http://www.instagram.com" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 511 511.9"><defs/><path d="M510.95 150.5c-1.2-27.2-5.598-45.898-11.9-62.102-6.5-17.199-16.5-32.597-29.6-45.398-12.802-13-28.302-23.102-45.302-29.5-16.296-6.3-34.898-10.7-62.097-11.898C334.648.3 325.949 0 256.449 0s-78.199.3-105.5 1.5c-27.199 1.2-45.898 5.602-62.097 11.898-17.204 6.5-32.602 16.5-45.403 29.602-13 12.8-23.097 28.3-29.5 45.3-6.3 16.302-10.699 34.9-11.898 62.098C.75 177.801.449 186.5.449 256s.301 78.2 1.5 105.5c1.2 27.2 5.602 45.898 11.903 62.102 6.5 17.199 16.597 32.597 29.597 45.398 12.801 13 28.301 23.102 45.301 29.5 16.3 6.3 34.898 10.7 62.102 11.898 27.296 1.204 36 1.5 105.5 1.5s78.199-.296 105.5-1.5c27.199-1.199 45.898-5.597 62.097-11.898a130.934 130.934 0 0074.903-74.898c6.296-16.301 10.699-34.903 11.898-62.102 1.2-27.3 1.5-36 1.5-105.5s-.102-78.2-1.3-105.5zm-46.098 209c-1.102 25-5.301 38.5-8.801 47.5-8.602 22.3-26.301 40-48.602 48.602-9 3.5-22.597 7.699-47.5 8.796-27 1.204-35.097 1.5-103.398 1.5s-76.5-.296-103.403-1.5c-25-1.097-38.5-5.296-47.5-8.796C94.551 451.5 84.45 445 76.25 436.5c-8.5-8.3-15-18.3-19.102-29.398-3.5-9-7.699-22.602-8.796-47.5-1.204-27-1.5-35.102-1.5-103.403s.296-76.5 1.5-103.398c1.097-25 5.296-38.5 8.796-47.5C61.25 94.199 67.75 84.1 76.352 75.898c8.296-8.5 18.296-15 29.398-19.097 9-3.5 22.602-7.7 47.5-8.801 27-1.2 35.102-1.5 103.398-1.5 68.403 0 76.5.3 103.403 1.5 25 1.102 38.5 5.3 47.5 8.8 11.097 4.098 21.199 10.598 29.398 19.098 8.5 8.301 15 18.301 19.102 29.403 3.5 9 7.699 22.597 8.8 47.5 1.2 27 1.5 35.097 1.5 103.398s-.3 76.301-1.5 103.301zm0 0"/><path d="M256.45 124.5c-72.598 0-131.5 58.898-131.5 131.5s58.902 131.5 131.5 131.5c72.6 0 131.5-58.898 131.5-131.5s-58.9-131.5-131.5-131.5zm0 216.8c-47.098 0-85.302-38.198-85.302-85.3s38.204-85.3 85.301-85.3c47.102 0 85.301 38.198 85.301 85.3s-38.2 85.3-85.3 85.3zm0 0M423.852 119.3c0 16.954-13.747 30.7-30.704 30.7-16.953 0-30.699-13.746-30.699-30.7 0-16.956 13.746-30.698 30.7-30.698 16.956 0 30.703 13.742 30.703 30.699zm0 0"/></svg></a>
+            <a class="footer-icon" href="http://www.twitter.com" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z"/></svg></a>
+            <a class="footer-icon" href="http://www.facebook.com" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 167.657 167.657"><path d="M83.829.349C37.532.349 0 37.881 0 84.178c0 41.523 30.222 75.911 69.848 82.57v-65.081H49.626v-23.42h20.222V60.978c0-20.037 12.238-30.956 30.115-30.956 8.562 0 15.92.638 18.056.919v20.944l-12.399.006c-9.72 0-11.594 4.618-11.594 11.397v14.947h23.193l-3.025 23.42H94.026v65.653c41.476-5.048 73.631-40.312 73.631-83.154 0-46.273-37.532-83.805-83.828-83.805z"/></svg></a>
+            <a class="footer-icon" href="https://web.telegram.org" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 24c6.629 0 12-5.371 12-12S18.629 0 12 0 0 5.371 0 12s5.371 12 12 12zM5.491 11.74l11.57-4.461c.537-.194 1.006.131.832.943l.001-.001-1.97 9.281c-.146.658-.537.818-1.084.508l-3-2.211-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953z"/></svg></a>
         </div>
     </footer>
-    
 </body>
 </html>
